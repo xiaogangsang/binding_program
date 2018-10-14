@@ -1,0 +1,24 @@
+<view>
+  <view class="body-title">
+    <canvas canvas-id="section_rect" class="manual-img" />
+    <view class="body-title-text">型号分类</view>
+  </view>
+  <view class="body">
+    <block wx:for="{{models}}" wx:key="*this">
+      <view class="section">
+        <view class="section-title">{{item.name}}</view>
+        <view class="section-body">
+          <block wx:for="{{item.model_list}}" wx:key="*this">
+            <view class="section-element">
+              <navigator url="/pages/components/parts/parts?model={{item.key}}&brand={{brand}}">
+                <view class="section-element-title">
+                  {{item.name}}
+                </view>
+              </navigator>
+            </view>
+          </block>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

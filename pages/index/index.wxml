@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="swiper-section">
+  <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500" circular="true">
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item {{item}}"></view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="brands-section">
+  <view class="brands-section-title">
+    <canvas canvas-id="section_rect" class="manual-img" />
+    <view class="brands-section-title-text">品牌分类</view>
+  </view>
+  <view class="brands-body">
+    <block wx:for="{{brands_list}}" wx:key="*this">
+      <navigator url="/pages/components/models/models?key={{item.key}}">
+        <view class="brands-section-element">
+          <image style="width: 160rpx; height: 120rpx; background-color: #ffffff;" mode="aspectFit" src="{{logo_prefix}}{{item.key}}.png">
+          </image>
+          <view class="brands-section-element-title">{{item.name}}</view>
+        </view>
+      </navigator>
+    </block>
+  </view>
+</view>

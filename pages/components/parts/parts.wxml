@@ -1,0 +1,11 @@
+<view>
+  <view class="part-align">
+    <block wx:for="{{parts_list}}" wx:key="*this">
+      <view class="part-view">
+        <image style="width: 240rpx; height: 200rpx; background-color: #ffffff;"  mode="aspectFit" src="{{part_image_prefix}}{{brand}}/{{model}}/{{item.key}}.jpg">
+          </image>
+        <view class="part-subTitle">{{item.name}}</view>
+      </view>
+    </block>
+  </view>
+</view>

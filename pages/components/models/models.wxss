@@ -1,0 +1,74 @@
+/* pages/components/models/models.wxss */
+page {
+  background-color: #E2E0E6;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+.manual-img {
+  margin: 5rpx;
+  width: 15rpx;
+  height: 40rpx;
+}
+.body-title {
+  display:flex;
+  flex-direction: row;
+  align-content: flex-start;
+  margin-left: 10rpx;
+}
+.body-title-text {
+  margin-left:10rpx;
+}
+
+.body {
+
+}
+
+.section {
+  background-color: #FFFFFF; 
+  margin-top: 20rpx;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+  border-radius: 20rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.section-title {
+  padding-left: 10rpx;
+  font-size: 30rpx;
+  color:#777777;
+}
+
+.section-body {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding-left: 5rpx;
+  padding-right: 5rpx;
+}
+
+.section-element {
+  max-width: 300rpx;
+  min-width: 120rpx;
+  min-height: 75rpx;
+  margin-top: 5rpx;
+  margin-left:3rpx;
+  margin-right:3rpx;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background-color:#DDD5E9;
+  border-radius:10rpx;
+}
+
+.section-element-title {
+  font-size: 32rpx;
+  color:#48116E;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
