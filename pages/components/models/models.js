@@ -13,7 +13,8 @@ Page({
   onLoad: function(options) {
     this.setData({
       models: models_data[options.key + "_models"],
-      brand: options.key
+      brand: options.key,
+      brandName: options.name
     })
     const ctx = wx.createCanvasContext('section_rect')
     ctx.setFillStyle('#5A517D')

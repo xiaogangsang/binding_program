@@ -4,10 +4,6 @@ const shgh_models = [{
       name: "650"
     },
     {
-      key: "_4650",
-      name: "4650"
-    },
-    {
       key: "_1740",
       name: "1740"
     },
@@ -20,12 +16,8 @@ const shgh_models = [{
       name: "1020"
     },
     {
-      key: "BT440",
-      name: "BT440"
-    },
-    {
-      key: "BT428",
-      name: "BT428"
+      key: "BT428_BT440",
+      name: "BT428、BT440"
     }
   ]
 }]

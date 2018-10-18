@@ -14,13 +14,25 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options)
-    console.log(parts_data)
-    console.log(parts_data[options.brand+"_parts"][options.model])
     this.setData({
       parts_list: parts_data[options.brand+"_parts"][options.model],
       brand: options.brand,
-      model: options.model
+      model: options.model,
+      modelName: options.modelName
+    })
+    const ctx = wx.createCanvasContext('section_rect')
+    ctx.setFillStyle('#5A517D')
+    ctx.fillRect(0, 0, 50, 50)
+    ctx.draw()
+  },
+
+  previewImage: function (e) {
+    var imgArray = []
+    var current = e.target.dataset.src;
+    imgArray.push(current)
+    wx.previewImage({
+      current: current,
+      urls: imgArray 
     })
   },
 

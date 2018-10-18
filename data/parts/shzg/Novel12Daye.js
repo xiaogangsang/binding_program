@@ -10,7 +10,7 @@ const parts = [
   { key: "DYQ480-1-22", name: "DYQ480-1-22隔圈" },
   { key: "DYQ480-1-23", name: "DYQ480-1-23隔圈" },
   { key: "DYQ480-1-28", name: "DYQ480-1-28压簧" },
-  { key: "DYQ480-1-31(1)", name: "DYQ480-1-31（1）扭簧" },
+  { key: "DYQ480-1-31", name: "DYQ480-1-31(1)扭簧" },
   { key: "DYQ480-1-31r", name: "DYQ480-1-31右咬爪" },
   { key: "DYQ480-1-31l", name: "DYQ480-1-31左咬牙" },
   { key: "DYQ480-1-34A", name: "DYQ480-1-34A咬爪" },

@@ -1,0 +1,4 @@
+<view>
+  <image style="width: 750rpx; height: 480rpx; background-color: #ffffff;" mode="widthFix" src="https://haimenziguang-images.oss-cn-shanghai.aliyuncs.com/app_imgs/contacts.png">
+  </image>
+</view>

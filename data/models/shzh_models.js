@@ -1,10 +1,7 @@
 const shzh_models = [{
     key: "folding_machine",
     name: "折页机",
-    model_list: [{
-        key: "blank_testing",
-        name: "折页机空张检测"
-      },
+    model_list: [
       {
         key: "ZYH660_delivering",
         name: "ZYH660机械刀输纸部分"
@@ -15,11 +12,11 @@ const shzh_models = [{
       },
       {
         key: "ZYH660D_delivering",
-        name: "ZYH660D电控刀输纸部分"
+        name: "ZYHD660电控刀输纸部分"
       },
       {
         key: "ZYH660D_folding",
-        name: "ZYH660D电控刀折页部分"
+        name: "ZYHD660电控刀折页部分"
       },
       {
         key: "ZYH780_delivering",
@@ -31,11 +28,11 @@ const shzh_models = [{
       },
       {
         key: "ZYH780D_delivering",
-        name: "ZYH780D电控刀输纸部分"
+        name: "ZYHD780电控刀输纸部分"
       },
       {
         key: "ZYH780D_folding",
-        name: "ZYH780D电控刀折页部分"
+        name: "ZYHD780电控刀折页部分"
       },
       {
         key: "ZYH660B",
@@ -102,26 +99,6 @@ const shzh_models = [{
       {
         key: "ZK320",
         name: "ZK320勒口机"
-      },
-      {
-        key: "SJB1000",
-        name: "SJB1000半自动糊书壳机"
-      },
-      {
-        key: "TNC",
-        name: "TNC1000A/B/C贴窗机"
-      },
-      {
-        key: "ZBF1300",
-        name: "ZBF1300纸板分切机"
-      },
-      {
-        key: "ZBQ410",
-        name: "ZBQ410纸板裁切机"
-      },
-      {
-        key: "PY460",
-        name: "PY460紫宏配页机"
       }
     ]
   }

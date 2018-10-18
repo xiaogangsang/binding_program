@@ -2,7 +2,7 @@ const parts = [
   { key: "DYQ440E-1-3", name: "DYQ440E-1-3挡书片" },
   { key: "DYQ440E-1-7", name: "DYQ440E-1-7挡书板" },
   { key: "DYQ440E-1-8", name: "DYQ440E-1-8弹簧勾" },
-  { key: "DYQ440B-1-14", name: "DYQ440B-1-14中间压书块" },
+  { key: "DYQ440E-1-14", name: "DYQ440E-1-14中间压书块" },
   { key: "DYQ440E-1-1", name: "DYQ440E-1-1T形螺栓" },
   { key: "DYQ440E-2-2", name: "DYQ440E-2-2主轴右端盖" },
   { key: "DYQ440E-2-6", name: "DYQ440E-2-6扭簧" },
@@ -30,8 +30,8 @@ const parts = [
   { key: "DYQ440E-4-5", name: "DYQ440E-4-5分纸凸轮轴" },
   { key: "DYQ440E-5-21", name: "DYQ440E-5-21吸气管" },
   { key: "DYQ440E-5-35", name: "DYQ440E-5-35涨紧轮座" },
-  { key: "DYQ440E-5-57A", name: "DYQ440E-5-57A盖板轴(用于CE)" },
-  { key: "DYQ440B-5-83", name: "DYQ440B-5-83轴" },
+  { key: "DYQ440E-5-57", name: "DYQ440E-5-57A盖板轴(用于CE)" },
+  { key: "DYQ440E-5-83", name: "DYQ440E-5-83轴" },
   { key: "DYQ440E-7-10", name: "DYQ440E-7-10定位块" },
   { key: "DYQ440E-7-16", name: "DYQ440E-7-16齿轮" }]
 

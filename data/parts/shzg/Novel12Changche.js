@@ -230,7 +230,7 @@ const parts = [
   { key: "DQ10-5-43", name: "DQ10-5-43连接板" },
   { key: "DQ10-5-45", name: "DQ10-5-45连接板" },
   { key: "DQ10-6-1", name: "DQ10-6-1挡块" },
-  { key: "DQ10-6-3", name: "DQ10-6-3调节板" },
+  { key: "DQ10-6-2", name: "DQ10-6-2调节板" },
   { key: "DQ10-6-3", name: "DQ10-6-3左挡板" },
   { key: "DQ10-6-4", name: "DQ10-6-4右挡板" },
   { key: "DQ10-6-5", name: "DQ10-6-5" },

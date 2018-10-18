@@ -1,5 +1,5 @@
-const AT670D = require('AT670D.js')
+const aotuo_xinshao = require('aotuo_xinshao.js')
 
 module.exports = {
-  AT670D: AT670D.parts
+  aotuo_xinshao: aotuo_xinshao.parts
 }

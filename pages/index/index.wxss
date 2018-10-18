@@ -15,13 +15,13 @@ page {
   margin-right:15rpx;
   margin-bottom:15rpx;
 }
-.brands-section-title {
+.section-title {
   display:flex;
   flex-direction: row;
   align-content: flex-start;
   margin-left: 5rpx;
 }
-.brands-section-title-text {
+.section-title-text {
   margin-left:10rpx
 }
 .brands-body {
@@ -37,61 +37,37 @@ page {
   margin-right: 10rpx;
 }
 .brands-section-element-title {
-  font-size: 28rpx;
-  color:#999999;
-  margin-bottom: 10rpx;
+  font-size: 30rpx;
+  color:#555555;
+  margin-bottom: 5rpx;
 }
 
-.demo-text-1{
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  background-color: #1AAD19;
-  color: #FFFFFF;
-  font-size: 36rpx;
+.scroll-view-item{
+  height: 450rpx;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 5rpx;
+  margin-right: 5rpx;
 }
-.demo-text-1:before{
-  content: 'A';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.machine-section {
+  margin-top:5rpx;
+  margin-left:15rpx;
+  margin-right:15rpx;
+  margin-bottom:15rpx;
 }
-.demo-text-2{
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  background-color: #2782D7;
-  color: #FFFFFF;
-  font-size: 36rpx;
+.machine-body {
+  margin-top: 5rpx;
+  display:flex;
+  flex-wrap: wrap;
 }
-.demo-text-2:before{
-  content: 'B';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.demo-text-3{
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  background-color: #F1F1F1;
-  color: #353535;
-  font-size: 36rpx;
-}
-.demo-text-3:before{
-  content: 'C';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.machine-section-element-title {
+  font-size: 32rpx;
+  color:#555555;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
 }
 
-.swiper-item{
-  display: block;
-  height: 150px;
-}
 .page-section-title{
   margin-top: 60rpx;
   position: relative;
@@ -99,3 +75,8 @@ page {
 .page-foot{
   margin-top: 50rpx;
 }
+.page-section-spacing{
+  margin-top: 60rpx;
+}
+
+
